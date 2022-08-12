@@ -211,6 +211,7 @@ struct CarState {
   headlightON @45 :Bool; # Low Beam ON
   usingZss @46 :Bool; # Is CS using ZSS
   meterDimmed @47 :Bool; # MFD Dimmer ON
+  alwaysONSteeringAssistOn @48 :Bool; # Always ON LKAS Toggle
 
   struct WheelSpeeds {
     # optional wheel speeds
