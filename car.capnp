@@ -420,6 +420,7 @@ struct CarParams {
   flags @64 :UInt32;         # flags for car specific quirks
   hasZss @68 :Bool;          # true if ZSS is detected
   smartDsu @69: Bool;        # true if SDSU is detected
+  radarInterceptor @70: Bool;# true if radar interceptor is detected
 
   minEnableSpeed @7 :Float32;
   minSteerSpeed @8 :Float32;
