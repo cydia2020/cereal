@@ -421,6 +421,7 @@ struct CarParams {
   hasZss @68 :Bool;          # true if ZSS is detected
   smartDsu @69: Bool;        # true if SDSU is detected
   radarInterceptor @70: Bool;# true if radar interceptor is detected
+  maxLateralAccel @71 :Float32;
 
   minEnableSpeed @7 :Float32;
   minSteerSpeed @8 :Float32;
