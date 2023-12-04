@@ -212,6 +212,9 @@ struct CarState {
   headlightON @45 :Bool; # Low Beam ON
   usingZss @46 :Bool; # Is CS using ZSS
   meterDimmed @47 :Bool; # MFD Dimmer ON
+  kinematicsPitch @48 :Float32; # Pitch calculated based on IMU and gravity
+  kinematicsYaw @49 :Float32; # Yaw calculated based on yaw rate and vEgo
+  kinematicsRoll @50 :Float32; # Pitch calculated based on IMU and gravity
 
   struct WheelSpeeds {
     # optional wheel speeds
