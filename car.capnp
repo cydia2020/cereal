@@ -221,9 +221,7 @@ struct CarState {
   charging @43 :Bool;
 
   # combination meter dimmer states
-  meterDimmed @48 :Bool;
-  meterLowBrightness @49 :Bool;
-  meterBrightness @50 :Float32;
+  meterBrightness @48 :Float32;
 
   struct WheelSpeeds {
     # optional wheel speeds
