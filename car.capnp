@@ -384,6 +384,7 @@ struct CarControl {
     rightLaneDepart @8: Bool;
     leftLaneDepart @9: Bool;
     leadVelocity @10: Float32;
+    enableVehicleBuzzer @11: Bool;
 
     enum VisualAlert {
       # these are the choices from the Honda
