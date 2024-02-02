@@ -224,9 +224,8 @@ struct CarState {
   meterBrightness @48 :Float32;
 
   # kinematics
-  accelY @50 :Float32;
   accelX @49 :Float32;
-  yawRate @51 :Float32;
+  accelY @50 :Float32;
 
   struct WheelSpeeds {
     # optional wheel speeds
