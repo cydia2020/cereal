@@ -223,6 +223,11 @@ struct CarState {
   # combination meter dimmer states
   meterBrightness @48 :Float32;
 
+  # kinematics
+  accelY @50 :Float32;
+  accelX @49 :Float32;
+  yawRate @50 :Float32;
+
   struct WheelSpeeds {
     # optional wheel speeds
     fl @0 :Float32;
